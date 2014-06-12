@@ -32,6 +32,7 @@ line-height: 20px;
 .splash {
 	background: url(../images/dna.jpg) bottom center no-repeat;
 	background-size: cover;
+	background-attachment: scroll;
 	padding-top:40px;
 }
 
@@ -43,9 +44,8 @@ line-height: 20px;
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
-  letter-spacing: -1px;
   /* margin-top: 120px; */
-  margin-top:13%;
+  margin-top:15%;
   color:#dfdfdf;
 }
 
