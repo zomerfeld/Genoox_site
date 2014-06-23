@@ -29,6 +29,10 @@ line-height: 20px;
 	border-color:transparent;
 }
 
+.navbar-static-top {
+	margin-bottom: -80px;
+}
+
 .splash {
 	background: url(../images/dna.jpg) bottom center no-repeat;
 	background-size: cover;
@@ -74,8 +78,7 @@ line-height: 20px;
 
 
 
-
-
+/* ========== MEDIA Queries ========== */
 
 
 @media (max-width: 450px) {
@@ -109,6 +112,16 @@ line-height: 20px;
 	}
 
 	.overflow_hide {
+	}
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	.form-horizontal .control-label {
+		width:120px;
 	}
 
 
