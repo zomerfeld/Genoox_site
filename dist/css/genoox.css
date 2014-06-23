@@ -4,6 +4,14 @@
   text-align: center;
 }
 
+.container {
+	max-width:960px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
 .logo {
 	height:100%;
 }
@@ -66,7 +74,37 @@ line-height: 20px;
 }
 
 .email {
+/*	margin-top:30px; */
+}
+
+.email p {
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.emailbox {
+	border-radius: 10px;
+	background: url(../images/dna.jpg) bottom center no-repeat;
+	color:#dfdfdf;
+	margin-bottom: 30px;
 	margin-top:30px;
+}
+
+.emailbox .btn {
+	color:black;
+	background-color: white;
+
+}
+
+.emailbox .btn:hover {
+	color:black;
+	background-color: grey;
+
+}
+
+
+.form-horizontal .control-label {
+	font-weight: normal;
 }
 
 .overflow-hide {
@@ -74,7 +112,54 @@ line-height: 20px;
 
 }
 
+.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
 
+.sgnup {
+	margin-top:-20px;
+}
+
+
+.fashadow {
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.15); 
+}
+
+.features {
+	text-align:center;
+	margin-top:20px;
+}
+
+.features .smallcol {
+	padding-right:4%;
+	padding-left:4%;
+
+}
+
+.iconfeatures {
+	margin-top:5px;
+	margin-bottom:8px;
+	color: #4100AA;
+}
+
+
+hr {
+	width:80%;
+/*	border-color: #4100AA; */
+	border-color: #357ebd;
+/*	opacity: 0.5; */
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.arrowup {
+	opacity: .5;
+	color: grey;
+	font-size: 1.4em;
+}
 
 
 
@@ -96,6 +181,15 @@ line-height: 20px;
 
 	}
 
+
+@media (max-width: 600px) {
+
+	.splash {
+		padding-bottom:30px;
+	}
+
+
+}
 
 
 @media (min-width: 768px) {
@@ -121,7 +215,7 @@ line-height: 20px;
 @media (min-width: 768px) and (max-width: 991px) {
 	
 	.form-horizontal .control-label {
-		width:120px;
+	/*	width:120px; */
 	}
 
 
