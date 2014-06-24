@@ -84,10 +84,34 @@ line-height: 20px;
 
 .emailbox {
 	border-radius: 10px;
-	background: url(../images/dna.jpg) bottom center no-repeat;
+/*	background: url(../images/dna.jpg) bottom center no-repeat; */
 	color:#dfdfdf;
 	margin-bottom: 30px;
 	margin-top:30px;
+		overflow: hidden;
+
+}
+
+.emailbox:after {
+	content: "";
+	background: url(../images/dna.jpg);
+	z-index: -1;
+	position:absolute;
+	height: 1200px;
+	width: 1600px;
+	top:0;
+	left:-800px;
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: FlipV;
+    -ms-filter: "FlipV";
+	-webkit-filter: grayscale(0.3);
+	filter: grayscale(0.3);
+
+	opacity: 0.9;
+
 }
 
 .emailbox .btn {
@@ -142,7 +166,8 @@ line-height: 20px;
 .iconfeatures {
 	margin-top:5px;
 	margin-bottom:8px;
-	color: #4100AA;
+	/*color: #4100AA; */
+	color:#59427E;
 }
 
 
