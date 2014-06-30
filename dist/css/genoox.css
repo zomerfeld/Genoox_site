@@ -90,7 +90,7 @@ line-height: 20px;
 	margin-top:60px;
 	overflow: hidden;
 	background: rgba(37, 26, 49, 0.32);
-	color:#DAD4D4;
+	color:#fff;
 
 }
 
@@ -123,8 +123,10 @@ line-height: 20px;
 }
 
 .emailbox .btn:hover {
-	color:black;
-	background-color: grey;
+	color:white;
+	background-color: #542A80;
+	border:1px solid #4C2774;
+	border-radius: 5px;
 
 }
 
@@ -150,11 +152,11 @@ line-height: 20px;
 	border-width: 3px;
 	border-color: white;
 	border-radius:5px;
-	background: #534264;
 }
 
 .sgnup:hover {
 	border-color:white;
+	background-color:#7C00AE;
 }
 
 
