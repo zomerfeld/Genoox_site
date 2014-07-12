@@ -44,7 +44,7 @@ color:white !important;
 	opacity:0.7;
 	position:relative;
 	margin-bottom:-16px;
-	top:-60px;
+	top:-70px;
 }
 
 
@@ -280,7 +280,9 @@ hr {
 		white-space: normal;
 	}
 
-
+	.splash {
+		margin-bottom:0px;
+	}
 
 }
 
@@ -309,7 +311,8 @@ hr {
 		display:none;
 	}
 
-	.splash {
+	.icon-mark {
+		margin-right:15px;
 	}
 
 	.featurette-heading {
@@ -337,8 +340,24 @@ hr {
 		margin-left:-10px;
 	}
 
+	.icon-mark {
+		font-size:16em;
+		top:-125px;
+		margin-bottom:-60px;
+	}
+
 
 }
+
+@media (min-width: 579px) and (max-width: 767px) {
+	
+	.icon-mark {
+		font-size:10em;
+		margin-right:45px;
+	}
+
+}
+
 
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -351,11 +370,7 @@ hr {
 		font-size: 36px;
 	}
 
-	.icon-mark {
-		font-size:12em;
-		top:-95px;
-		margin-bottom:-40px;
-	}
+
 
 
 }
@@ -367,8 +382,5 @@ hr {
 		font-size: 50px;
 	}
 
-	.icon-mark {
-		font-size:15em;
-		top:-95px;
-	}
+	
 }
