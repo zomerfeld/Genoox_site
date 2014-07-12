@@ -16,9 +16,10 @@
 
     <!-- Custom styles for this template -->
     <link href="css/genoox.css" rel="stylesheet">
-
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,500' rel='stylesheet' type='text/css'>
     <!-- Replace fontawesome with iconmoo before deployment -->
-    <link rel="stylesheet" href="fonts/font-awesome-4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <!-- <link rel="stylesheet" href="fonts/font-awesome-4.1.0/css/font-awesome.min.css"> -->
 
   </head>
 
@@ -28,7 +29,7 @@
       <div class="container">
       <div class="row" >
         <div class="navbar-header col-md-12">
-          		<a class="navbar-brand" href="#"><img class="logo" alt="logo" src="images/logo.png" ></a>
+          		<a class="navbar-brand" id="logo" href="#"><span class="icon-logo"></span></a>
         </div>
       </div>
       </div>
@@ -38,11 +39,10 @@
 <section class="splash">
     <div class="container">
 		<div class="row feautrette">
-			<div class="col-sm-8 col-xs-9">
-				<h2 class="featurette-heading"><span class="break">Genomic Data Management,</span> done right. </h2>
-			</div>
-			<div class="col-sm-4 col-xs-3">
-				<img class="featurette-image img-responsive logomark" src="images/logomark300.png" alt="Large logo">
+			<div class="col-xs-12">
+				<h2 class="featurette-heading z300"><span class="">Genomic Data Management,</span> done right. </h2>
+				<span class="icon-mark z200"></span>
+			<!--	<img class="featurette-image img-responsive logomark" src="images/logomark300.png" alt="Large logo"> -->
 			</div>
 		</div>
 	</div>
@@ -107,7 +107,7 @@
 			    <div style="position: absolute; left: -5000px;"><input type="text" name="b_9c877e3872a2dd5af9f62a145_d3c6b4bfe1" tabindex="-1" value=""></div>
 			  <div class="form-group">
 		      <div class="col-sm-3 pull-right">
-			  	  <button type="submit" class="btn btn-block">Submit</button>
+			  	  <button type="submit" class="btn btn-block btn-info">Submit</button>
 			  </div>
 
 			  </div>
@@ -122,7 +122,7 @@
 <div class="container">
 <!-- FOOTER -->
 <footer>
-<p class="pull-right"><a href="#"><i class="fa fa-chevron-up arrowup"></i></a></p>
+<p class="pull-right"><a href="#logo"><i class="fa icon-chevron-up arrowup"></i></a></p>
 <p><small>&copy; 2014 Genoox, Ltd. </small></p>
 </footer>
 </div>
@@ -135,7 +135,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script>
       $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
+        $('a[href*=#]').click(function() {
           if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
             var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) +']');

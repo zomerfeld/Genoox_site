@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'genoox';
+	src:url('../fonts/genoox.eot?-bbw7d9');
+	src:url('../fonts/genoox.eot?#iefix-bbw7d9') format('embedded-opentype'),
+		url('../fonts/genoox.woff?-bbw7d9') format('woff'),
+		url('../fonts/genoox.ttf?-bbw7d9') format('truetype'),
+		url('../fonts/genoox.svg?-bbw7d9#genoox') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-logo:before {
+	content: "\e600";
+}
+.icon-mark:before {
+	content: "\e601";
+}
+.icon-chevron-up:before {
+	content: "\f077";
+}

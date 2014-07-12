@@ -54,22 +54,22 @@
   border-color: #dbdbdb;
 }
 .btn-primary {
-  background-image: -webkit-linear-gradient(top, #2c1642 0%, #0d0714 100%);
-  background-image:         linear-gradient(to bottom, #2c1642 0%, #0d0714 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2c1642', endColorstr='#ff0d0714', GradientType=0);
+  background-image: -webkit-linear-gradient(top, #2c8eb3 0%, #206782 100%);
+  background-image:         linear-gradient(to bottom, #2c8eb3 0%, #206782 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2c8eb3', endColorstr='#ff206782', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
-  border-color: #08040c;
+  border-color: #1e617a;
 }
 .btn-primary:hover,
 .btn-primary:focus {
-  background-color: #0d0714;
+  background-color: #206782;
   background-position: 0 -15px;
 }
 .btn-primary:active,
 .btn-primary.active {
-  background-color: #0d0714;
-  border-color: #08040c;
+  background-color: #206782;
+  border-color: #1e617a;
 }
 .btn-success {
   background-image: -webkit-linear-gradient(top, #5cb85c 0%, #419641 100%);
@@ -90,22 +90,22 @@
   border-color: #3e8f3e;
 }
 .btn-info {
-  background-image: -webkit-linear-gradient(top, #5bc0de 0%, #2aabd2 100%);
-  background-image:         linear-gradient(to bottom, #5bc0de 0%, #2aabd2 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff2aabd2', GradientType=0);
+  background-image: -webkit-linear-gradient(top, #dbe4e7 0%, #b6c8cf 100%);
+  background-image:         linear-gradient(to bottom, #dbe4e7 0%, #b6c8cf 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdbe4e7', endColorstr='#ffb6c8cf', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
-  border-color: #28a4c9;
+  border-color: #b0c4ca;
 }
 .btn-info:hover,
 .btn-info:focus {
-  background-color: #2aabd2;
+  background-color: #b6c8cf;
   background-position: 0 -15px;
 }
 .btn-info:active,
 .btn-info.active {
-  background-color: #2aabd2;
-  border-color: #28a4c9;
+  background-color: #b6c8cf;
+  border-color: #b0c4ca;
 }
 .btn-warning {
   background-image: -webkit-linear-gradient(top, #f0ad4e 0%, #eb9316 100%);
@@ -159,10 +159,10 @@
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
-  background-color: #1f102f;
-  background-image: -webkit-linear-gradient(top, #2c1642 0%, #1f102f 100%);
-  background-image:         linear-gradient(to bottom, #2c1642 0%, #1f102f 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2c1642', endColorstr='#ff1f102f', GradientType=0);
+  background-color: #277e9f;
+  background-image: -webkit-linear-gradient(top, #2c8eb3 0%, #277e9f 100%);
+  background-image:         linear-gradient(to bottom, #2c8eb3 0%, #277e9f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2c8eb3', endColorstr='#ff277e9f', GradientType=0);
   background-repeat: repeat-x;
 }
 .navbar-default {
@@ -251,9 +251,9 @@
   background-repeat: repeat-x;
 }
 .progress-bar {
-  background-image: -webkit-linear-gradient(top, #2c1642 0%, #12091c 100%);
-  background-image:         linear-gradient(to bottom, #2c1642 0%, #12091c 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2c1642', endColorstr='#ff12091c', GradientType=0);
+  background-image: -webkit-linear-gradient(top, #2c8eb3 0%, #226e8a 100%);
+  background-image:         linear-gradient(to bottom, #2c8eb3 0%, #226e8a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2c8eb3', endColorstr='#ff226e8a', GradientType=0);
   background-repeat: repeat-x;
 }
 .progress-bar-success {
@@ -263,9 +263,9 @@
   background-repeat: repeat-x;
 }
 .progress-bar-info {
-  background-image: -webkit-linear-gradient(top, #5bc0de 0%, #31b0d5 100%);
-  background-image:         linear-gradient(to bottom, #5bc0de 0%, #31b0d5 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff31b0d5', GradientType=0);
+  background-image: -webkit-linear-gradient(top, #dbe4e7 0%, #bccdd3 100%);
+  background-image:         linear-gradient(to bottom, #dbe4e7 0%, #bccdd3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdbe4e7', endColorstr='#ffbccdd3', GradientType=0);
   background-repeat: repeat-x;
 }
 .progress-bar-warning {
@@ -288,12 +288,12 @@
 .list-group-item.active,
 .list-group-item.active:hover,
 .list-group-item.active:focus {
-  text-shadow: 0 -1px 0 #12091c;
-  background-image: -webkit-linear-gradient(top, #2c1642 0%, #190c25 100%);
-  background-image:         linear-gradient(to bottom, #2c1642 0%, #190c25 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2c1642', endColorstr='#ff190c25', GradientType=0);
+  text-shadow: 0 -1px 0 #226e8a;
+  background-image: -webkit-linear-gradient(top, #2c8eb3 0%, #247694 100%);
+  background-image:         linear-gradient(to bottom, #2c8eb3 0%, #247694 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2c8eb3', endColorstr='#ff247694', GradientType=0);
   background-repeat: repeat-x;
-  border-color: #190c25;
+  border-color: #247694;
 }
 .panel {
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
@@ -306,9 +306,9 @@
   background-repeat: repeat-x;
 }
 .panel-primary > .panel-heading {
-  background-image: -webkit-linear-gradient(top, #2c1642 0%, #1f102f 100%);
-  background-image:         linear-gradient(to bottom, #2c1642 0%, #1f102f 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2c1642', endColorstr='#ff1f102f', GradientType=0);
+  background-image: -webkit-linear-gradient(top, #2c8eb3 0%, #277e9f 100%);
+  background-image:         linear-gradient(to bottom, #2c8eb3 0%, #277e9f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2c8eb3', endColorstr='#ff277e9f', GradientType=0);
   background-repeat: repeat-x;
 }
 .panel-success > .panel-heading {
