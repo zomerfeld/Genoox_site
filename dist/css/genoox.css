@@ -36,15 +36,15 @@ color:white !important;
 }
 
 .icon-mark {
-	color: #184F64;
+	color: #fff;
 	font-size: 20vw;
 	text-align: center;
 	display: block;
 	float: right;
-	opacity:0.7;
+	opacity:0.9;
 	position:relative;
-	margin-bottom:-16px;
-	top:-70px;
+	top: 25px;
+	margin-bottom: 50px;
 }
 
 
@@ -74,7 +74,7 @@ color:white !important;
 .featurette-heading {
   font-weight: 400;
   line-height: 1;
-  margin-top:10%;
+  margin-top:9%;
   color:white;
   margin-bottom:20px;
   letter-spacing: -1px;
@@ -261,7 +261,8 @@ hr {
 	
 	.featurette-heading {
 		margin-top: 55px;
-		margin-bottom: 0px;
+		margin-bottom: 50px;
+		line-height: 1.1em;
 	}
 
 	.icon-mark {
@@ -340,21 +341,12 @@ hr {
 		margin-left:-10px;
 	}
 
-	.icon-mark {
-		font-size:16em;
-		top:-125px;
-		margin-bottom:-60px;
-	}
 
 
 }
 
 @media (min-width: 579px) and (max-width: 767px) {
 	
-	.icon-mark {
-		font-size:10em;
-		margin-right:45px;
-	}
 
 }
 
@@ -380,6 +372,10 @@ hr {
 		
 	.featurette-heading {
 		font-size: 50px;
+	}
+
+	.icon-mark {
+		font-size:15em;
 	}
 
 	
