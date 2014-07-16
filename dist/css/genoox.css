@@ -67,10 +67,9 @@ color:white !important;
 }
 
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 80px 0; 
 }
 
-/* Thin out the marketing headings */
 .featurette-heading {
   font-weight: 400;
   line-height: 1;
@@ -95,9 +94,6 @@ color:white !important;
 	padding-top:30px;
 }
 
-.email {
-/*	margin-top:30px; */
-}
 
 .email p {
 	margin-top:20px;
@@ -109,21 +105,14 @@ color:white !important;
 	margin-bottom: 30px;
 	margin-top:40px;
 	overflow: hidden;
-	color:#fff;
-	padding-bottom: 10px;
-	background: linear-gradient(rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.5) 100%);;; /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.1)), color-stop(100%,rgba(0,0,0,0.5))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.5) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.5) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.5) 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.5) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', endColorstr='#80000000',GradientType=0 ); /* IE6-9 */
+	color:black;
+	border: solid 3px #2c8eb3;
 
 }
 
 .emailbox:after {
 	content: "";
-	background: url(../images/dna.jpg);
+	/*background: url(../images/dna.jpg); */
 	z-index: -1;
 	position:absolute;
 	height: 1200px;
@@ -140,17 +129,17 @@ color:white !important;
 }
 
 .emailbox .btn {
-	color:black;
+	color:white;
 	padding: 6px 12px;
 
 }
 
 
-.emailbox .btn:hover {
+/*.emailbox .btn:hover {
 	color:white;
 	background-color: #247492;
 	border: 1px solid transparent;
-} 
+} */
 
 .emailbox h2,h3,h4,h5 {
 	margin-top:20px;
@@ -199,6 +188,17 @@ color:white !important;
 	border-color:white;
 }
 
+.sgnupno {
+	margin-top:0px;
+	border-width: 0px;
+	border-color: none;
+	border-radius:5px;
+}
+
+.sgnupno:hover {
+	border-color:white;
+}
+
 
 .fashadow {
 	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.15); 
@@ -223,16 +223,9 @@ color:white !important;
 }
 
 
-hr {
-	width:80%;
-	margin-left:auto;
-	margin-right:auto;
-}
 
-.arrowup {
-	opacity: .5;
-	font-size: 1.4em;
-}
+
+
 
 .break:after {
     content: '\A';
@@ -246,6 +239,27 @@ hr {
 .z200 {
 	z-index: 200;
 }
+
+.footer {
+	color:white;
+	height:80px;
+	position:relative;
+	bottom:0;
+}
+
+.arrowup {
+	opacity: 1;
+	font-size: 1.4em;
+	color:white;
+}
+
+hr {
+	margin-left:auto;
+	margin-right:auto;
+	border-color: white;
+
+}
+
 
 
 
@@ -268,9 +282,42 @@ hr {
 		color:transparent;
 	}
 
+	.emailbox {
+		color:#fff;
+		padding-bottom: 10px;
+		background: linear-gradient(rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.5) 100%);;; /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.1)), color-stop(100%,rgba(0,0,0,0.5))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.5) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.5) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.5) 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.5) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', endColorstr='#80000000',GradientType=0 ); /* IE6-9 */
+		border: 0px;
+
+	}
+
+	.emailbox:after {
+		content: "";
+		background: url(../images/dna.jpg);
+		z-index: -1;
 
 
 	}
+
+	.footer {
+		color:black;
+		background: transparent; 
+		padding-top:20px;
+	}
+
+	.arrowup {
+		color:#2c8eb3;
+		opacity:0.5;
+	}
+
+	hr 
+
+}
 
 @media (max-width:520px){
 	
@@ -318,9 +365,6 @@ hr {
 		margin-right:15px;
 	}
 
-	.featurette-heading {
-
-	}
 
 }
 
@@ -343,6 +387,9 @@ hr {
 		margin-left:-10px;
 	}
 
+	.lead {
+		font-size:19px;
+	}
 
 
 }
@@ -382,4 +429,20 @@ hr {
 	}
 
 	
+}
+
+
+@media (min-width: 1048px) and (min-height: 880px) {
+
+.allcontent {
+	height:100%;
+	margin-bottom:80px;
+}
+
+.footer {
+	position:absolute;
+	width:100%;
+}
+
+
 }
