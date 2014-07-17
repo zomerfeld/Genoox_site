@@ -430,10 +430,10 @@ hr {
 }
 
 
-/*Sticks the footer to the bottom on large screens. Min-width ideally should be higher but is 799 to make it work on Nexus 10.*/
-/*Remove after adding more content to the page.*/
+/* Sticks the footer to the bottom on large screens. */
+/* Remove after adding more content to the page.*/
 
-@media (min-width: 799px) and (min-height: 880px) {
+@media (min-width: 1048px) and (min-height: 880px) {
 
 .allcontent {
 	height:100%;
@@ -445,5 +445,19 @@ hr {
 	width:100%;
 }
 
+}
+
+@media	only screen and (-webkit-min-device-pixel-ratio: 1.9) and (min-height: 880px) {
+	
+.allcontent {
+	height:100%;
+	margin-bottom:80px;
+}
+
+.footer {
+	position:absolute;
+	width:100%;
+}
 
 }
+
