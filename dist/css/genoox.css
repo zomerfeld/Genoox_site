@@ -403,9 +403,7 @@ hr {
 
 @media (min-width: 768px) and (max-width: 991px) {
 	
-	.form-horizontal .control-label {
-	/*	width:120px; */
-	}
+
 
 	.featurette-heading {
 		font-size: 36px;
@@ -432,7 +430,10 @@ hr {
 }
 
 
-@media (min-width: 1048px) and (min-height: 880px) {
+/*Sticks the footer to the bottom on large screens. Min-width ideally should be higher but is 799 to make it work on Nexus 10.*/
+/*Remove after adding more content to the page.*/
+
+@media (min-width: 799px) and (min-height: 880px) {
 
 .allcontent {
 	height:100%;
